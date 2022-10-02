@@ -2,26 +2,25 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-29T14:11:08 IST" name="Suite" finished-at="2022-09-29T14:12:31 IST" duration-ms="82702">
+  <suite started-at="2022-10-02T14:56:52 IST" name="Default suite" finished-at="2022-10-02T14:58:30 IST" duration-ms="98454">
     <groups>
     </groups>
-    <test started-at="2022-09-29T14:11:08 IST" name="Test" finished-at="2022-09-29T14:12:31 IST" duration-ms="82702">
+    <test started-at="2022-10-02T14:56:52 IST" name="Default test" finished-at="2022-10-02T14:58:30 IST" duration-ms="98454">
       <class name="tests.RegisteredUserTestCases">
-        <test-method is-config="true" signature="browse()[pri:0, instance:tests.RegisteredUserTestCases@1a4013]" started-at="2022-09-29T14:11:08 IST" name="browse" finished-at="2022-09-29T14:12:03 IST" duration-ms="54811" status="PASS">
+        <test-method is-config="true" signature="browse()[pri:0, instance:tests.RegisteredUserTestCases@1cbb87f3]" started-at="2022-10-02T14:56:52 IST" name="browse" finished-at="2022-10-02T14:58:03 IST" duration-ms="71581" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browse -->
-        <test-method signature="Verify_Valid_RegisteredUserDetails()[pri:0, instance:tests.RegisteredUserTestCases@1a4013]" started-at="2022-09-29T14:12:03 IST" name="Verify_Valid_RegisteredUserDetails" finished-at="2022-09-29T14:12:30 IST" duration-ms="26635" status="FAIL">
+        <test-method signature="Verify_Valid_RegisteredUserDetails()[pri:0, instance:tests.RegisteredUserTestCases@1cbb87f3]" started-at="2022-10-02T14:58:03 IST" name="Verify_Valid_RegisteredUserDetails" finished-at="2022-10-02T14:58:30 IST" duration-ms="26629" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[add cart is displaying expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+              <![CDATA[java.lang.AssertionError: add cart is displaying expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
 at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
 at tests.RegisteredUserTestCases.Verify_Valid_RegisteredUserDetails(RegisteredUserTestCases.java:25)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -57,11 +56,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Valid_RegisteredUserDetails -->
-        <test-method is-config="true" signature="turndown()[pri:0, instance:tests.RegisteredUserTestCases@1a4013]" started-at="2022-09-29T14:12:31 IST" name="turndown" finished-at="2022-09-29T14:12:31 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="turndown()[pri:0, instance:tests.RegisteredUserTestCases@1cbb87f3]" started-at="2022-10-02T14:58:30 IST" name="turndown" finished-at="2022-10-02T14:58:30 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- turndown -->
       </class> <!-- tests.RegisteredUserTestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
