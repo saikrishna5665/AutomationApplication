@@ -22,7 +22,7 @@ public class RegisteredUserTestCases extends automationbase{
 		Assert.assertTrue(shop.T_Shirts_Display(),"Tshirts logo is not displayed");
 		shop.T_shirts_click();
 		shop.Movetotshirts(drive);
-		Assert.assertTrue(false,"add cart is displaying");///its is wantedly falied to take screen shot
+		Assert.assertTrue(shop.Addtocart_Display(),"add cart is  not displaying");///its is wantedly falied to take screen shot
 		shop.Addcart();
 		//Assert.assertTrue(shop.Success_msg(),"After addtocart succes message is not displaying");
 		//shop.succes_msg();
